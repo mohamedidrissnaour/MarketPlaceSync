@@ -1,0 +1,58 @@
+<Solution>
+  <Folder Name="/src/" />
+  <Folder Name="/src/Services/" />
+  <Folder Name="/src/Services/ConnectorService/">
+    <Project Path="src/Services/ConnectorService/ConnectorService.API/ConnectorService.API.csproj" />
+    <Project Path="src/Services/ConnectorService/ConnectorService.Application/ConnectorService.Application.csproj" />
+    <Project Path="src/Services/ConnectorService/ConnectorService.Domain/ConnectorService.Domain.csproj" />
+    <Project Path="src/Services/ConnectorService/ConnectorService.Infrastructure/ConnectorService.Infrastructure.csproj" />
+  </Folder>
+  <Folder Name="/src/Services/MappingService/">
+    <Project Path="src/Services/MappingService/MappingService.API/MappingService.API.csproj" />
+    <Project Path="src/Services/MappingService/MappingService.Application/MappingService.Application.csproj" />
+    <Project Path="src/Services/MappingService/MappingService.Domain/MappingService.Domain.csproj" />
+    <Project Path="src/Services/MappingService/MappingService.Infrastructure/MappingService.Infrastructure.csproj" />
+  </Folder>
+  <Folder Name="/src/Services/MasterCatalog/">
+    <Project Path="src/Services/MasterCatalog/MasterCatalog.API/MasterCatalog.API.csproj" />
+    <Project Path="src/Services/MasterCatalog/MasterCatalog.Application/MasterCatalog.Application.csproj" />
+    <Project Path="src/Services/MasterCatalog/MasterCatalog.Domain/MasterCatalog.Domain.csproj" />
+    <Project Path="src/Services/MasterCatalog/MasterCatalog.Infrastructure/MasterCatalog.Infrastructure.csproj" />
+  </Folder>
+  <Folder Name="/src/Services/MonitoringService/">
+    <Project Path="src/Services/MonitoringService/MonitoringService.API/MonitoringService.API.csproj" />
+    <Project Path="src/Services/MonitoringService/MonitoringService.Application/MonitoringService.Application.csproj" />
+    <Project Path="src/Services/MonitoringService/MonitoringService.Domain/MonitoringService.Domain.csproj" />
+    <Project Path="src/Services/MonitoringService/MonitoringService.Infrastructure/MonitoringService.Infrastructure.csproj" />
+  </Folder>
+  <Folder Name="/src/Services/OrderService/">
+    <Project Path="src/Services/OrderService/OrderService.API/OrderService.API.csproj" />
+    <Project Path="src/Services/OrderService/OrderService.Application/OrderService.Application.csproj" />
+    <Project Path="src/Services/OrderService/OrderService.Domain/OrderService.Domain.csproj" />
+    <Project Path="src/Services/OrderService/OrderService.Infrastructure/OrderService.Infrastructure.csproj" />
+  </Folder>
+  <Folder Name="/src/Services/SyncEngine/">
+    <Project Path="src/Services/SyncEngine/SyncEngine.API/SyncEngine.API.csproj" />
+    <Project Path="src/Services/SyncEngine/SyncEngine.Application/SyncEngine.Application.csproj" />
+    <Project Path="src/Services/SyncEngine/SyncEngine.Domain/SyncEngine.Domain.csproj" />
+    <Project Path="src/Services/SyncEngine/SyncEngine.Infrastructure/SyncEngine.Infrastructure.csproj" />
+  </Folder>
+  <Folder Name="/src/Services/ValidationService/">
+    <Project Path="src/Services/ValidationService/ValidationService.API/ValidationService.API.csproj" />
+    <Project Path="src/Services/ValidationService/ValidationService.Application/ValidationService.Application.csproj" />
+    <Project Path="src/Services/ValidationService/ValidationService.Domain/ValidationService.Domain.csproj" />
+    <Project Path="src/Services/ValidationService/ValidationService.Infrastructure/ValidationService.Infrastructure.csproj" />
+  </Folder>
+  <Folder Name="/src/Shared/">
+    <Project Path="src/Shared/Shared.Contracts/Shared.Contracts.csproj" />
+  </Folder>
+  <Folder Name="/tests/">
+    <Project Path="tests/ConnectorService.Tests/ConnectorService.Tests.csproj" />
+    <Project Path="tests/MappingService.Tests/MappingService.Tests.csproj" />
+    <Project Path="tests/MasterCatalog.Tests/MasterCatalog.Tests.csproj" />
+    <Project Path="tests/MonitoringService.Tests/MonitoringService.Tests.csproj" />
+    <Project Path="tests/OrderService.Tests/OrderService.Tests.csproj" />
+    <Project Path="tests/SyncEngine.Tests/SyncEngine.Tests.csproj" />
+    <Project Path="tests/ValidationService.Tests/ValidationService.Tests.csproj" />
+  </Folder>
+</Solution>

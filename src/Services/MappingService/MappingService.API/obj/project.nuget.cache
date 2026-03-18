@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "Yt/rkbyk8Kg=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Jacky\\Desktop\\MarketplaceSync\\src\\Services\\MappingService\\MappingService.API\\MappingService.API.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Jacky\\.nuget\\packages\\microsoft.aspnetcore.openapi\\10.0.3\\microsoft.aspnetcore.openapi.10.0.3.nupkg.sha512",
+    "C:\\Users\\Jacky\\.nuget\\packages\\microsoft.openapi\\2.0.0\\microsoft.openapi.2.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

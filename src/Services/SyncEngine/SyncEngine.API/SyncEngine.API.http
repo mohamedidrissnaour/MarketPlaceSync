@@ -1,0 +1,6 @@
+@SyncEngine.API_HostAddress = http://localhost:5249
+
+GET {{SyncEngine.API_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
