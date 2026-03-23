@@ -8,10 +8,12 @@
 
   <ItemGroup>
     <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="10.0.3" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="10.1.5" />
   </ItemGroup>
 
-  <ItemGroup>
-    <ProjectReference Include="..\MasterCatalog.Infrastructure\MasterCatalog.Infrastructure.csproj" />
-  </ItemGroup>
+ <ItemGroup>
+  <ProjectReference Include="..\MasterCatalog.Application\MasterCatalog.Application.csproj" />
+  <ProjectReference Include="..\MasterCatalog.Infrastructure\MasterCatalog.Infrastructure.csproj" />
+</ItemGroup>
 
 </Project>

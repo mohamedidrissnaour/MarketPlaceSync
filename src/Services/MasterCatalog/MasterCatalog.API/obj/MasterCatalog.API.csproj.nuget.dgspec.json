@@ -13,25 +13,22 @@
         "packagesPath": "C:\\Users\\Jacky\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\Jacky\\Desktop\\MarketplaceSync\\src\\Services\\MasterCatalog\\MasterCatalog.API\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Jacky\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\Jacky\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net10.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net10.0": {
             "targetAlias": "net10.0",
             "projectReferences": {
+              "C:\\Users\\Jacky\\Desktop\\MarketplaceSync\\src\\Services\\MasterCatalog\\MasterCatalog.Application\\MasterCatalog.Application.csproj": {
+                "projectPath": "C:\\Users\\Jacky\\Desktop\\MarketplaceSync\\src\\Services\\MasterCatalog\\MasterCatalog.Application\\MasterCatalog.Application.csproj"
+              },
               "C:\\Users\\Jacky\\Desktop\\MarketplaceSync\\src\\Services\\MasterCatalog\\MasterCatalog.Infrastructure\\MasterCatalog.Infrastructure.csproj": {
                 "projectPath": "C:\\Users\\Jacky\\Desktop\\MarketplaceSync\\src\\Services\\MasterCatalog\\MasterCatalog.Infrastructure\\MasterCatalog.Infrastructure.csproj"
               }
@@ -57,6 +54,10 @@
             "Microsoft.AspNetCore.OpenApi": {
               "target": "Package",
               "version": "[10.0.3, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[10.1.5, )"
             }
           },
           "imports": [
@@ -505,19 +506,13 @@
         "packagesPath": "C:\\Users\\Jacky\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\Jacky\\Desktop\\MarketplaceSync\\src\\Services\\MasterCatalog\\MasterCatalog.Application\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Jacky\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\Jacky\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net10.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -862,19 +857,13 @@
         "packagesPath": "C:\\Users\\Jacky\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\Jacky\\Desktop\\MarketplaceSync\\src\\Services\\MasterCatalog\\MasterCatalog.Domain\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Jacky\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\Jacky\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net10.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -898,6 +887,28 @@
       "frameworks": {
         "net10.0": {
           "targetAlias": "net10.0",
+          "dependencies": {
+            "Microsoft.Extensions.DependencyInjection": {
+              "target": "Package",
+              "version": "[10.0.5, )"
+            },
+            "Microsoft.Extensions.DependencyInjection.Abstractions": {
+              "target": "Package",
+              "version": "[10.0.5, )"
+            },
+            "Microsoft.Extensions.Options": {
+              "target": "Package",
+              "version": "[10.0.5, )"
+            },
+            "Microsoft.Extensions.Options.ConfigurationExtensions": {
+              "target": "Package",
+              "version": "[10.0.5, )"
+            },
+            "MongoDB.Driver": {
+              "target": "Package",
+              "version": "[3.7.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -1201,19 +1212,13 @@
         "packagesPath": "C:\\Users\\Jacky\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\Jacky\\Desktop\\MarketplaceSync\\src\\Services\\MasterCatalog\\MasterCatalog.Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Jacky\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\Jacky\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net10.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -1222,6 +1227,9 @@
             "projectReferences": {
               "C:\\Users\\Jacky\\Desktop\\MarketplaceSync\\src\\Services\\MasterCatalog\\MasterCatalog.Application\\MasterCatalog.Application.csproj": {
                 "projectPath": "C:\\Users\\Jacky\\Desktop\\MarketplaceSync\\src\\Services\\MasterCatalog\\MasterCatalog.Application\\MasterCatalog.Application.csproj"
+              },
+              "C:\\Users\\Jacky\\Desktop\\MarketplaceSync\\src\\Services\\MasterCatalog\\MasterCatalog.Domain\\MasterCatalog.Domain.csproj": {
+                "projectPath": "C:\\Users\\Jacky\\Desktop\\MarketplaceSync\\src\\Services\\MasterCatalog\\MasterCatalog.Domain\\MasterCatalog.Domain.csproj"
               }
             }
           }
@@ -1246,7 +1254,15 @@
               "target": "Package",
               "version": "[10.0.5, )"
             },
+            "Microsoft.Extensions.DependencyInjection.Abstractions": {
+              "target": "Package",
+              "version": "[10.0.5, )"
+            },
             "Microsoft.Extensions.Options": {
+              "target": "Package",
+              "version": "[10.0.5, )"
+            },
+            "Microsoft.Extensions.Options.ConfigurationExtensions": {
               "target": "Package",
               "version": "[10.0.5, )"
             },
